@@ -1,0 +1,26 @@
+{
+  "name": "@sreyaj/ng-shimmer",
+  "author": {
+    "name": "Adithya Sreyaj",
+    "email": "adi.sreyaj@gmail.com",
+    "url": "https://sreyaj.com"
+  },
+  "description": "Shimmer Placeholder for Angular Applications. Improve the User Experience on your application by using shimmer placeholders which was made popular by Facebook",
+  "keywords": [
+    "angular",
+    "shimmer",
+    "shimmer animation",
+    "angular shimmer",
+    "facebook shimmer"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adisreyaj/angular-shimmer-effect/issues"
+  },
+  "homepage": "https://github.com/adisreyaj/angular-shimmer-effect/",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^7.2.0",
+    "@angular/core": "^7.2.0"
+  }
+}

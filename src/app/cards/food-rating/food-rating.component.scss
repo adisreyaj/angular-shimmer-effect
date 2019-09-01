@@ -1,0 +1,80 @@
+.card {
+  height: 200px;
+  max-width: 600px;
+  width: 80%;
+  min-width: 550px;
+  background-color: #fff;
+  border-radius: 8px;
+  display: flex;
+  box-shadow: 0 4px 25px -10px rgba($color: #000000, $alpha: 0.25);
+  .image {
+    border-radius: 8px 0 0 8px;
+    flex: 1 0 40%;
+    position: relative;
+    background-image: url(../../../assets/food.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    .current-rating {
+      position: absolute;
+      bottom: 6px;
+      left: 6px;
+      padding: 4px 8px;
+      background-color: #fff;
+      border-radius: 3rem;
+      margin-top: -16px;
+      display: flex;
+      span {
+        &:nth-of-type(1) {
+          font-size: 14px;
+        }
+        &:nth-of-type(2) {
+          font-size: 17px;
+          color: #ffdd03;
+        }
+      }
+    }
+  }
+  .meta-info {
+    flex: 1 0 60%;
+    padding: 16px;
+    h3 {
+      font-size: 18px;
+      margin-bottom: 10px;
+      margin-top: 0;
+    }
+    p {
+      margin: 6px 0;
+      font-weight: 500;
+      font-size: 14px;
+    }
+    .rating-bar {
+      padding: 10px 0;
+    }
+    .chips-list {
+      margin-top: 12px;
+      display: flex;
+      span {
+        width: 30%;
+        margin: 6px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    height: 400px;
+    max-width: 500px;
+    min-width: 300px;
+    flex-direction: column;
+    width: 100%;
+    .meta-info {
+      flex: 100%;
+    }
+    .image {
+      border-radius: 8px 8px 0 0;
+      flex: 100%;
+    }
+  }
+}

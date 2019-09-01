@@ -1,0 +1,79 @@
+$primary: #00749F;
+.card{
+  max-width: 280px;
+  width: 80%;
+  padding:32px 24px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 25px -10px rgba($color: #000000, $alpha: 0.25);
+  .card-header{
+    h3{
+      margin-top: 0;
+      margin-bottom: 6px;
+      color: $primary;
+    }
+    p{
+      font-size: 14px;
+      color: #535353;
+    }
+  }
+  .card-content{
+    padding-top: 16px;
+    text-align: center;
+    .meta-info{
+      display: flex;
+      flex-flow: column wrap;
+      align-items: center;
+      img{
+        height: 150px;
+      }
+
+      .name{
+        font-weight: bold;
+        margin-bottom: 4px;
+      }
+      .designation{
+        margin-top: 0;
+        color: #535353;
+        font-size: 13px;
+      }
+
+      .current-rating{
+        padding:4px 12px;
+        background-color: #fff;
+        border-radius: 3rem;
+        margin-top: -16px;
+        display: flex;
+        span{
+          &:nth-of-type(1){
+            font-size: 14px;
+          }
+          &:nth-of-type(2){
+            font-size: 17px;
+            color: #3db700;
+          }
+        }
+      }
+    }
+        .rating{
+          padding: 6px 0;
+        }
+  }
+  .card-footer{
+    margin-top: 24px;
+    text-align: center;
+    button{
+      cursor: pointer;
+      background-color: $primary;
+      padding: 12px 32px;
+      border-radius: 3rem;
+      border: none;
+      color: #fff;
+    }
+  }
+}
+@media screen and (max-width: 768px){
+  .card{
+    width: 100%;
+  }
+}

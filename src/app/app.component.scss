@@ -1,0 +1,41 @@
+main {
+  background-color: #f5f5f5;
+  padding: 32px;
+  section {
+    width: 100%;
+  }
+  .showcase {
+    display: flex;
+    padding: 64px 0;
+    justify-content: space-around;
+    div {
+      background-color: #fff;
+      padding: 16px 32px;
+      border-radius: 8px;
+      box-shadow: 0 0px 12px -6px rgba($color: #000000, $alpha: 0.25);
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      p {
+        font-weight: 500;
+      }
+    }
+  }
+  .examples {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  main {
+    padding: 8px;
+    .showcase {
+      flex-direction: column;
+      div {
+        margin-bottom: 16px;
+      }
+    }
+  }
+}
