@@ -10,6 +10,7 @@ export class ShimmerComponent {
   @Input() type: 'line' | 'square' | 'circle' = 'line';
   @Input() width = '80%';
   @Input() height = '12px';
+  @Input() duration = '1s';
   @Input() rounded = false;
 
   getHeight(): string {

@@ -53,6 +53,7 @@ Eg with few options:
 | Type Of Shimmer       | You can change the appearance of the shimmer                  | type      | 'line' or 'circle' or 'square' | 'line   |
 | Width of the Shimmer  | Shimmer width can be customized according to your need        | width     | string                         | '80%'   |
 | Height of the Shimmer | Shimmer height can be customized according to your need       | height    | string                         | '12px'  |
+| Animation Duration    | Shimmer animation duration can be customized according to your need       | animation-duration   | string  | '1s'    |
 | Rounded               | Shimmer corners can be rounded of for 'line' or 'square' type | rounded   | boolean                        | false   |
 
 Feel free to open Issues and Pull Requests
