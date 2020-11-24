@@ -18,7 +18,7 @@
     "url": "https://github.com/adisreyaj/angular-shimmer-effect/issues"
   },
   "homepage": "https://github.com/adisreyaj/angular-shimmer-effect/",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "dependencies": {
     "tslib": "^2.0.0"
   },
