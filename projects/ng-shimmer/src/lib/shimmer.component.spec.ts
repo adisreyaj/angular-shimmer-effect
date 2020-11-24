@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
 import { ShimmerComponent } from './shimmer.component';
 
@@ -6,7 +6,7 @@ describe('NgShimmerComponent', () => {
   let component: ShimmerComponent;
   let fixture: ComponentFixture<ShimmerComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ShimmerComponent],
     }).compileComponents();
