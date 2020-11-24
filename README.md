@@ -19,7 +19,7 @@ Simple and easy to user Shimmer Animation placeholder for your Angular applicati
 
 ![Profile Card](https://raw.githubusercontent.com/adisreyaj/angular-shimmer-effect/master/assets/ss-2.gif)
 
-### Features
+## Features
 
 - Simple and Easy to Setup
 - Ease to use
@@ -66,7 +66,7 @@ Eg with few options:
 | Feature               | Description                                                         | Attribute | Type                           | Default |
 | --------------------- | ------------------------------------------------------------------- | --------- | ------------------------------ | ------- |
 | Type Of Shimmer       | You can change the appearance of the shimmer                        | type      | 'line' or 'circle' or 'square' | 'line   |
-| Width of the Shimmer  | Shimmer width can be customized according to your need              | width     | string                         | '80%'   |
+| Width of the Shimmer  | Shimmer width can be customized according to your need              | width     | string                         | '100%'  |
 | Height of the Shimmer | Shimmer height can be customized according to your need             | height    | string                         | '12px'  |
 | Animation Duration    | Shimmer animation duration can be customized according to your need | duration  | string                         | '1s'    |
 | Rounded               | Shimmer corners can be rounded of for 'line' or 'square' type       | rounded   | boolean                        | false   |
