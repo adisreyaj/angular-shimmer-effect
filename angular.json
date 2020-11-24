@@ -149,13 +149,13 @@
           "options": {
             "tsConfig": "projects/ng-shimmer/tsconfig.lib.json",
             "project": "projects/ng-shimmer/ng-package.json"
-          }
-        ,          "configurations": {
+          },
+          "configurations": {
             "production": {
               "tsConfig": "projects/ng-shimmer/tsconfig.lib.prod.json"
             }
           }
-},
+        },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
@@ -179,5 +179,5 @@
       }
     }
   },
-  "defaultProject": "angular-shimmer-effect"
+  "defaultProject": "ng-shimmer"
 }
