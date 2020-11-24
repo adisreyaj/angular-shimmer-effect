@@ -1,15 +1,23 @@
 {
   "name": "angular-shimmer-effect",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
-  "private": true,
+  "private": false,
+  "author": {
+    "name": "Adithya Sreyaj",
+    "email": "adi.sreyaj@gmail.com",
+    "url": "https://sreyaj.dev"
+  },
+  "repository": {
+    "url": "https://github.com/adisreyaj/angular-shimmer-effect"
+  },
   "dependencies": {
     "@angular/animations": "~11.0.2",
     "@angular/common": "~11.0.2",

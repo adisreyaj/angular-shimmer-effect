@@ -1,4 +1,5 @@
 import { Component, Input, ChangeDetectionStrategy } from '@angular/core';
+import { ShimmerTypes } from './shimmer.model';
 
 @Component({
   selector: 'shimmer',
@@ -7,29 +8,9 @@ import { Component, Input, ChangeDetectionStrategy } from '@angular/core';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class ShimmerComponent {
-  @Input() type: 'line' | 'square' | 'circle' = 'line';
-  @Input() width = '80%';
+  @Input() type: ShimmerTypes = ShimmerTypes.LINE;
+  @Input() width = '100%';
   @Input() height = '12px';
   @Input() duration = '1s';
   @Input() rounded = false;
-
-  getHeight(): string {
-    if (this.type === 'circle' || this.type === 'square') {
-      return this.width;
-    }
-    return this.height;
-  }
-
-  getBorderRadius(): '50%' | '0px' | '3em' {
-    if (this.type === 'circle') {
-      return '50%';
-    }
-    if (this.type === 'square') {
-      return '0px';
-    }
-    if (this.rounded) {
-      return '3em';
-    }
-    return '0px';
-  }
 }

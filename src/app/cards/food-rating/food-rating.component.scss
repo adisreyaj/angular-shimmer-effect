@@ -38,6 +38,8 @@
   .meta-info {
     flex: 1 0 60%;
     padding: 16px;
+    position: relative;
+    box-sizing: border-box;
     h3 {
       font-size: 18px;
       margin-bottom: 10px;
